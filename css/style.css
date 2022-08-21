@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 47px 6px;
+}
+
+body {
+    scroll-behavior: smooth;
+    transition: all 1.7s;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo a {
+    color: aqua;
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 6vh;
+    width: 95vw;
+    margin: auto;
+    padding: 12px 4px;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    padding: 12px;
+}
+
+.list li a {
+    color: black;
+    font-weight: 100;
+    font-size: 1.09rem;
+}
+
+.list li a:hover {
+    color: aqua;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+#hamburger {
+    color: black;
+    display: none;
+    font-size: 1.2rem;
+    padding: 12px;
+    color: red;
+}
+
+#hamburger:hover {
+    background-color: rgba(144, 218, 218, 0.553);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+#hamburger-menu {
+    padding: 0px 12px;
+}
+
+#close-btn {
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+#close-btn:hover {
+    background-color: rgba(144, 218, 218, 0.553);
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    flex-direction: row-reverse;
+}
+
+.profile-img {
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-right: 12px;
+}
+
+.profile-img img {
+    width: 330px;
+}
+
+.paragraph {
+    width: 50%;
+    font-size: 1.4rem;
+    margin-left: 12px;
+}
+
+.paragraph .para {
+    color: rgb(36, 228, 177);
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+.paragraph .special {
+    font-size: 1.1rem;
+    width: 150%;
+    font-weight: lighter;
+    color: rgba(92, 91, 91, 0.832);
+    line-height: 1.9rem;
+}
+
+.contact-me {
+    margin-top: 12px;
+}
+
+.contact-me button {
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: rgb(36, 228, 177);
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.contact-me button:hover {
+    transform: scale(1.1);
+}
+
+.skills {
+    margin: 12px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.tech h2 {
+    padding: 4px;
+    color: aqua;
+    font-size: 2.2rem;
+}
+
+.slider {
+    overflow: hidden;
+    width: 90%;
+    margin-top: 18px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+
+#slide-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10000%;
+}
+
+#slide-wrap li i {
+    width: 300px;
+    margin: auto;
+    font-size: 100px;
+}
+
+#slide-wrap li i:hover {
+    color: red;
+}
+
+.display {
+    transform: translateX(-1500px);
+}
+
+.display1 {
+    transform: translateX(0px);
+}
+
+.arrown-keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-btn {
+    font-size: 22px;
+    margin: 0px 42px;
+    margin-top: 11px;
+    user-select: none;
+}
+
+.arrow-btn:hover {
+    color: aqua;
+    cursor: pointer;
+    border: 2px solid pink;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 22px;
+    width: 98%;
+    margin: auto;
+}
+
+.project-heading {
+    text-align: center;
+    color: black;
+    margin-bottom: 32px;
+    font-size: 2.3rem;
+}
+
+.project-box {
+    padding: 29px;
+    border: 2px solid blue;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2.3rem;
+    margin-top: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.project-box h1 {
+    font-size: 1.9rem;
+}
+
+.skill-use button {
+    padding: 5px;
+    border-radius: 8px;
+    cursor: s-resize;
+    background-color: rgba(0, 0, 0, 0.79);
+    color: white;
+    margin-top: 24px;
+}
+
+.project-box p {
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin-top: 14px;
+}
+
+.link-btn {
+    margin-top: 14px;
+}
+
+.link-btn a {
+    padding: 9px;
+    background-color: aqua;
+    font-size: 1.7rem;
+    border-radius: 9px;
+    margin-left: 12px;
+    color: white;
+}
+
+.link-btn a i {
+    padding: 9px;
+}
+
+.link-btn a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid aqua;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 139, 0.609);
+    margin-top: 24px;
+    padding: 24px;
+    height: 40vh;
+}
+
+.content {
+    width: 50%;
+    margin-top: 12px;
+    line-height: 1.7rem;
+    color: white;
+    font-weight: lighter;
+    padding: 9px;
+}
+
+.content p {
+    font-size: 1.0rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    padding: 12px;
+    border-style: none;
+}
+
+.form button {
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+    background-color: aquamarine;
+    font-size: 1.2rem;
+}
+
+.form button:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+    width: 98%;
+    margin: 12px auto;
+    font-size: 1.1rem;
+    color: rgba(212, 86, 86, 0.895);
+}
+
+.social-handles p {
+    margin-bottom: 12px;
+}
+
+.social-handles i {
+    font-size: 1.9rem;
+    margin: 0px 14px;
+    color: black;
+}
+
+.social-handles i:hover {
+    color: blue;
+    transform: scale(1.1);
+}
