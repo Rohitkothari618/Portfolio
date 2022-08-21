@@ -122,7 +122,7 @@ a {
 }
 
 .paragraph .para {
-    color: rgb(36, 228, 177);
+    color: aqua;
     font-size: 2.9rem;
     font-weight: bold;
 }
@@ -137,16 +137,22 @@ a {
 
 .contact-me {
     margin-top: 12px;
+    color: white;
 }
 
 .contact-me button {
     padding: 12px;
     cursor: pointer;
     border-radius: 9px;
-    background-color: rgb(36, 228, 177);
-    color: white;
+    background-color: aqua;
+   
     font-weight: bolder;
     font-size: 16px;
+    border-style: none;
+
+}
+.contact-me button a{
+    color: white;
 }
 
 .contact-me button:hover {
@@ -180,6 +186,8 @@ a {
     display: flex;
     justify-content: space-around;
     margin-bottom: 12px;
+    margin:auto;
+
 }
 
 #slide-wrap {
@@ -187,6 +195,7 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 10000%;
+    margin: auto;
 }
 
 #slide-wrap li i {
@@ -307,10 +316,11 @@ a {
     width: 95%;
     margin: auto;
     border-radius: 5px;
-    background-color: rgba(0, 0, 139, 0.609);
+    background-color:aqua;
+    
     margin-top: 24px;
     padding: 24px;
-    height: 40vh;
+    height: 50vh;
 }
 
 .content {
@@ -320,20 +330,22 @@ a {
     color: white;
     font-weight: lighter;
     padding: 9px;
+    color: black;
 }
 
 .content p {
-    font-size: 1.0rem;
+    font-size: 1.1rem;
 }
 
 .form {
     width: 50%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 22px;
 }
 
 .form input {
-    padding: 12px;
+    padding: 15px;
     border-style: none;
 }
 
@@ -361,7 +373,7 @@ a {
     width: 98%;
     margin: 12px auto;
     font-size: 1.1rem;
-    color: rgba(212, 86, 86, 0.895);
+    color: black;
 }
 
 .social-handles p {

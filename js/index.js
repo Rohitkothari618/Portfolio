@@ -19,14 +19,14 @@ const slides = document.getElementById("slider");
 const slideLen = document.querySelectorAll(".slide");
 console.log(slideLen);
 var i = 0;
-slides.addEventListener("mouseover", () => {
+slides.addEventListener("drag", () => {
   slides.scrollLeft += 50;
 });
 next.addEventListener("click", () => {
   console.log("hellworold");
-  slides.scrollLeft += 50;
+  slides.scrollLeft += 200;
 });
 prev.addEventListener("click", () => {
   console.log("hellworold");
-  slides.scrollLeft -= 50;
+  slides.scrollLeft -= 200;
 });
